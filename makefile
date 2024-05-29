@@ -1,4 +1,4 @@
-all: main
+all: main clean
 
 main: main.o queue.o
 	gcc -o main main.o queue.o
@@ -10,4 +10,4 @@ queue.o: queue.c queue.h
 	gcc -c queue.c
 
 clean:
-	rm -f *.o main
+	rm -f *.o 
