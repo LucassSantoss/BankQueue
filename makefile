@@ -10,4 +10,4 @@ queue.o: queue.c queue.h
 	gcc -c queue.c
 
 clean:
-	rm -f *.o
+	rm -f *.o 
