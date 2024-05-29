@@ -61,6 +61,10 @@ int main() {
     }
 
     print_attended_clients(&queue_attended);
+   
+    destroy_queue(&queue_attended);
+    destroy_queue(&queue_general);
+    destroy_queue(&queue_priority);
 
     return 0;
 }
